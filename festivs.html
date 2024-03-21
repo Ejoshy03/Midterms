@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surigao City</title>
+  <link rel="icon" type="image/x-icon" href="logo-removebg-preview.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
+  <style>
+    .banner {
+      background-image: url(festivals.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 70vh;
+      background-position: center;
+    }
+    
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+
+    .carousel-item {
+      transition: transform 0.9s ease-in-out;
+    }
+
+    .carousel-item-next.carousel-item-left,
+    .carousel-item-right.carousel-item-prev {
+      transform: translateX(0);
+    }
+
+    .carousel-item-next,
+    .active.carousel-item-right {
+      transform: translateX(40%);
+    }
+
+    .carousel-item-prev,
+    .active.carousel-item-left {
+      transform: translateX(40%);
+    }
+
+    .navbar-transparent {
+      background-color: transparent !important;
+    }
+    body {
+      background-color: black;
+      color: white;
+    }
+    .img-container {
+      position: relative;
+      overflow: hidden;
+      height: 200px; 
+    }
+    .img-fluid {
+      height: 100%; 
+      width: 100%; 
+      object-fit: cover; 
+    }
+    .img-description {
+      position: relative;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 0 0 5px 5px;
+      margin-top: -5px;
+    }
+    .position-relative {
+    overflow: hidden;
+  }
+
+  .position-relative img {
+    transition: transform 0.3s ease;
+  }
+
+  .position-relative:hover img {
+    transform: scale(1.1);
+  }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="navbar">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="logo-removebg-preview.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                        Surigao
+                    </a>
+                </div>
+            </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5" href="see.html">See and Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5" href="restos.html">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5" href="#">Events and Festivals</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white fs-5" href="geog.html">Geography</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid banner">
+        <div class="d-flex justify-content-center align-items-center pt-5">
+            <h1 class="text-center pt-5 text-white fw-bold" style="font-family: Barabara; text-transform: uppercase;">
+            </h1>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="text-left mt-5">Events and Festivals</h1>
+        <p class="text-left mt-8">Festivals in Surigao del Sur are region rich in cultural diversity and natural beauty. Among its many treasures is the vibrant and enchanting Ka’liga Tu Sur Festival which encapsulates the spirit and traditions of the local communities.
+            In this coastal paradise, where the rhythms of daily life are often influenced by the ebb and flow of the Pacific Ocean, festivals hold a special place in the hearts of its people. These celebrations are a tapestry of history, culture, and spirituality, weaving a story passed down through generations.</p>
+            <div class="row mt-5">
+                <div class="col-md-8">
+            <h1 class="text-left mt-5">Festivals In Surigao<br></h1>
+            <h1 class="text-left mt-5">1. Ka’liga Tu Sur Festival<br></h1>
+            <p class="text-left mt-5">- Date: 3rd week of June (usually 19)<br>
+                - Location: Tandag City, Surigao del Sur, Philippines<br>
+                - Description: Introducing a groundbreaking festival concept that brings together the rich tapestry of Festivals in Surigao del Sur: the Araw ng Surigao. This innovative event captures the essence of Surigao del Sur’s spirit, celebrating life, abundance, and the thriving prosperity of its people. Imagine a grand spectacle where the unique traditions and vibrant cultures of Surigao del Sur’s various festivals converge into a mesmerizing showcase. This extraordinary celebration unites communities and highlights the region’s rich heritage. The Araw ng Surigao is a testament to the unity and diversity of the province. It embodies the harmony of its people and their shared aspirations for a brighter future. This festival in Surigao del Sur serves as a symbol of unwavering spirit, exuberantly rejoicing in the bounties of life and the prosperity that binds its communities together.<br></p>
+                <h1 class="text-left mt-5">2. Gakit Festival<br></h1>
+            <p class="text-left mt-5">- Date: 3rd week of November (usually 19-20)<br>
+                - Location: Bayabas, Surigao del Sur, Philippines<br>
+                - Description: One of the celebrations of the Gakit Festival is through “gakit” which means Raft. The celebration takes place at the seaside where every local and tourist alike gathers. It also celebrates the Araw ng Bayabas in which every barangay showcases its harvest and its products.<br></p>
+                <h1 class="text-left mt-5">3. Kaliguan Festival<br></h1>
+            <p class="text-left mt-5">- Date: 4th week of June (usually 21-25)<br>
+                - Location: Cagwait, Surigao del Sur, Philippines<br>
+                - Description: Kaliguan Festival is an annual celebration in honor of St. John the Baptist every 4th week of June.<br></p>
+                <h1 class="text-left mt-5">4. Sirong Festival<br></h1>
+            <p class="text-left mt-5">- Date: 2nd week of August (usually 13-14)<br>
+                - Location: Cantilan, Surigao del Sur, Philippines<br>
+                Description: Originating as a religious movement in Cantilan, Sirong emerged as an Act of Piety. Over time, it evolved into a captivating spectacle, blending entertainment with a solemn observance by the faithful during Cantilan’s fiesta, honoring God through the Patron Saint. The term “Sirong” embodies action, signifying a fencing of one’s experiences to fortify communication, survival, and the pursuit of recognition and status.<br></p>
+                <h1 class="text-left mt-5">5. Makong Kaumahan Festival<br></h1>
+            <p class="text-left mt-5">- Date: 2nd week of November (usually 16-17)<br>
+                - Location: Carmen, Surigao del Sur, Philippines<br>
+                - Description: Is a celebration of the bounty harvest of farmers.<br></p>
+                <h1 class="text-left mt-5">6. Kalogatan Festival<br></h1>
+            <p class="text-left mt-5">- Date: 3rd week of July (usually 16)<br>
+                - Location: Carrascal, Surigao del Sur, Philippines<br>
+                - Description: The Pahinungod Festival is a vibrant and joyous Mardi Gras-style celebration that takes place in the charming streets of Carrascal. This lively event is a celebration of their beloved Patroness, Our Lady of Mt. Carmel, and serves as a dynamic platform to showcase and celebrate the rich tapestry of cultural diversity that Carrascal boasts.<br></p>
+                <h1 class="text-left mt-5">7. Kalogatan Festival<br></h1>
+                <p class="text-left mt-5">- Date: 2nd week of November (usually 16-17)<br>
+                    - Location: Cortes, Surigao del Sur, Philippines<br>
+                    - Description: Is a celebration of Araw ng Cortes and Kalogatan Festival. The main highlight is the Inter-Barangay Street Dancing and Showdown Competition. It’s a free interpretation of a rural dancing contest anchored on the history and culture of the Municipality of Cortes.<br></p>
+                    <h1 class="text-left mt-5">8. Lanuza International Surfing Festival<br></h1>
+                    <p class="text-left mt-5">- Date: 2nd week of November (usually 12)<br>
+                        - Location: Lanuza, Surigao del Sur, Philippines<br>
+                        - Description: The Lanuza Surfing Festival is an annual event that takes place in November, attracting surfers from around the world, as well as those from different parts of the country and the local community. This festival showcases incredible performances on various types of boards, including surfboards, longboards, and skimboards.<br></p>
+                        <h1 class="text-left mt-5">9. Inatu Festival<br></h1>
+                        <p class="text-left mt-5">- Date: 3rd week of October (usually 15-17)<br>
+                            - Location: Lianga, Surigao del Sur, Philippines<br>
+                            - Description: The Inatu festival is also a celebration of Araw ng Lianga. Participants in these festivals are from different schools within Lianga. During this event, participants showcase a play that narrates the captivating tale of an inter-racial marriage.<br></p>
+                            <h1 class="text-left mt-5">10. Magdadaro Festival<br></h1>
+                            <p class="text-left mt-5">- Date: 2nd week of May (usually 12)<br>
+                                - Location: Madrid, Surigao del Sur, Philippines<br>
+                                - Description: The Magdadaro Festival highlight is Sumyajaw sa Kadayanan and Grand Showdown. The Magdadaro Festival is a vibrant celebration that beautifully captures the essence of the Madridanon way of life. This lively event unfolds through mesmerizing dances of praise, graceful movements, elaborate costumes, and deeply rooted beliefs that hold special significance for the town’s people, particularly in the realm of farming.<br></p>  
+                                                                
+                </div>
+           </div>      
+      </div>
+    
+    <section id="contact-us" class="mt-0" style="background-color: rgb(75, 77, 78); margin-top: 0; padding-top: 0;">
+        <div class="container py-5"> 
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center" style="color: rgb(239, 239, 243);">Contact us</h1>
+                    <p class="lead"></p>
+                </div>
+                <div class="col">
+                    <a href="https://www.facebook.com/joshearl.pacaldo">
+                        <img src="download.png" alt="Contact" class="img-fluid" style="max-width: 5%; height: auto;">
+                    </a>
+                    <a href="https://www.facebook.com/joshearl.pacaldo">
+                        <img src="gmail-removebg-preview.png" alt="Contact" class="img-fluid" style="max-width: 9%; height: auto;">
+                    </a>
+                    <a href="https://www.facebook.com/joshearl.pacaldo">
+                        <img src="insta-removebg-preview.png" alt="Contact" class="img-fluid" style="max-width: 5%; height: auto;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+  <div class="floating-button">
+    <a href="#" onclick="scrollToContact()">
+      <img src="comment.png" alt="Image" class="img-fluid" style="width: 60px; height: auto;">
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function scrollToContact() {
+      var contactSection = document.getElementById('contact-us');
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('navbar');
+      if (window.scrollY === 0) {
+        navbar.classList.add('navbar-transparent');
+      } else {
+        navbar.classList.remove('navbar-transparent');
+      }
+    });
+  </script>
+</body>
+</html>

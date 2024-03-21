@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surigao City</title>
+  <link rel="icon" type="image/x-icon" href="logo-removebg-preview.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
+  <style>
+    .banner {
+      background-image: url(downloadfood.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 70vh;
+      background-position: center;
+    }
+    
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+
+    .carousel-item {
+      transition: transform 0.9s ease-in-out;
+    }
+
+    .carousel-item-next.carousel-item-left,
+    .carousel-item-right.carousel-item-prev {
+      transform: translateX(0);
+    }
+
+    .carousel-item-next,
+    .active.carousel-item-right {
+      transform: translateX(40%);
+    }
+
+    .carousel-item-prev,
+    .active.carousel-item-left {
+      transform: translateX(40%);
+    }
+
+    .navbar-transparent {
+      background-color: transparent !important;
+    }
+    body {
+      background-color: black;
+      color: white;
+    }
+    .img-container {
+      position: relative;
+      overflow: hidden;
+      height: 200px; 
+    }
+    .img-fluid {
+      height: 100%; 
+      width: 100%; 
+      object-fit: cover; 
+    }
+    .img-description {
+      position: relative;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 0 0 5px 5px;
+      margin-top: -5px;
+    }
+    .position-relative {
+    overflow: hidden;
+  }
+
+  .position-relative img {
+    transition: transform 0.3s ease;
+  }
+
+  .position-relative:hover img {
+    transform: scale(1.1);
+  }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="navbar">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="logo-removebg-preview.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                        Surigao
+                    </a>
+                </div>
+            </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5" href="see.html">See and Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5" href="#">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5" href="festivs.html">Events and Festivals</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white fs-5" href="geog.html">Geography</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="container-fluid banner">
+        <div class="d-flex justify-content-center align-items-center pt-5">
+            <h1 class="text-center pt-5 text-white fw-bold" style="font-family: Barabara; text-transform: uppercase;">
+            </h1>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-left mt-5">Restaurants</h2>
+        <div class="row mt-4">
+          <div class="col-md-4 mb-4">
+            <div class="position-relative">
+              <img src="roadgrill.png" class="img-fluid rounded" alt="Silop">
+              <div class="img-description">
+                <h3>RoadGrill Restobar</h3>
+                <p>Offers a unique dining experience, grilled cuisine with a vibrant road-trip atmosphere, creating a memorable fusion of flavors and ambiance.</p>
+                <div class="ratings">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="position-relative">
+              <img src="harbor.png" class="img-fluid rounded" alt="Day-Asan Floating Villages">
+              <div class="img-description">
+                <h3>Harborside Resto & Grill</h3>
+                <p>Harborside Resto & Grill offers a delightful dining experience by the waterfront, serving delectable dishes with a picturesque view of the harbor.</p>
+                <div class="ratings">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="position-relative">
+              <img src="grill.png" class="img-fluid rounded" alt="Lake">
+              <div class="img-description">
+                <h3>PV Grill House</h3>
+                <p>Has a vibrant culinary destination offering a diverse menu of grilled specialties and contemporary dishes, perfect for casual dining experiences.</p>
+                <div class="ratings">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="position-relative">
+              <img src="gogi.png" class="img-fluid rounded" alt="Battle">
+              <div class="img-description">
+                <h3>House of K-Gogi Surigao</h3>
+                <p>House of K-Gogi Surigao offers a tantalizing fusion of Korean and Filipino cuisine, enticing patrons with its unique blend of flavors in the heart of Surigao City.</p>
+                <div class="ratings">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span> 
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="position-relative">
+              <img src="rarios.png" class="img-fluid rounded" alt="Manjagao">
+              <div class="img-description">
+                <h3>Rario's Restaurant Cafe</h3>
+                <p>Rario's Restaurant Cafe offers a diverse culinary experience, blending traditional flavors with innovative techniques in a cozy yet vibrant atmosphere.</p>
+                <div class="ratings">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span> 
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="position-relative">
+              <img src="bansay.png" class="img-fluid rounded" alt="Rock Formations">
+              <div class="img-description">
+                <h3>Bansay Portside Restaurant</h3>               
+                <p>Bansay Portside Restaurant offers an exquisite dining experience overlooking the scenic portside, serving delectable cuisine amidst a captivating coastal ambiance.</p>
+                <div class="ratings">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <section id="contact-us" class="mt-0" style="background-color: rgb(75, 77, 78); margin-top: 0; padding-top: 0;">
+        <div class="container py-5"> 
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center" style="color: rgb(239, 239, 243);">Contact us</h1>
+                    <p class="lead"></p>
+                </div>
+                <div class="col">
+                    <a href="https://www.facebook.com/joshearl.pacaldo">
+                        <img src="download.png" alt="Contact" class="img-fluid" style="max-width: 5%; height: auto;">
+                    </a>
+                    <a href="https://www.facebook.com/joshearl.pacaldo">
+                        <img src="gmail-removebg-preview.png" alt="Contact" class="img-fluid" style="max-width: 9%; height: auto;">
+                    </a>
+                    <a href="https://www.facebook.com/joshearl.pacaldo">
+                        <img src="insta-removebg-preview.png" alt="Contact" class="img-fluid" style="max-width: 5%; height: auto;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+  <div class="floating-button">
+    <a href="#" onclick="scrollToContact()">
+      <img src="comment.png" alt="Image" class="img-fluid" style="width: 60px; height: auto;">
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function scrollToContact() {
+      var contactSection = document.getElementById('contact-us');
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('navbar');
+      if (window.scrollY === 0) {
+        navbar.classList.add('navbar-transparent');
+      } else {
+        navbar.classList.remove('navbar-transparent');
+      }
+    });
+  </script>
+</body>
+</html>
